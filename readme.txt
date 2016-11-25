@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 == Description ==
 
 Plugin features:
-* speedup website by not loading useless functions (It saves about 2% on memory which WordPress consumes on every page load)
+* speedup website by not loading useless functions. Excludes: deprecated.php, pluggable-deprecated.php, bookmark.php and bookmark-template.php (It saves about 2% on memory which WordPress consumes on every page load)
 * shows in the admin bar the number of SQL queries during the WordPress execution, the amount of time in seconds to generate the page and memory load
 
 

@@ -92,7 +92,7 @@ function silverbullet_field_file_pluggable_deprecated_callback() {
 	$settings = silverbullet_get_settings_speedup();
 	$default_settings = silverbullet_default_settings_speedup();
 	echo '<label><input type="checkbox" name="silverbullet_settings_speedup[disable_pluggable_deprecated]" '.checked(1, $settings['disable_pluggable_deprecated'], false).' value="1" /> ';
-	echo 'disable pluggable_deprecated.php</label>';
+	echo 'disable pluggable-deprecated.php</label>';
 	echo '<p class="description">Saves about 10kb of memory on every page load.</p>';
 	echo '<p class="description">Default: '.silverbullet_checkbox_default( $default_settings['disable_pluggable_deprecated'] ).'</p>';
 }
