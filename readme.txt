@@ -22,6 +22,10 @@ Your hosting will be happy.
 
 == Frequently Asked Questions ==
 
+= What to do if plugin caused errors: =
+
+You should connect to website via ftp and manually edit file wp-settings.php and uncomment lines which contains these filenames: deprecated.php, pluggable-deprecated.php, bookmark.php and bookmark-template.php
+
 = Incompatible with: =
 
 * Multisite
